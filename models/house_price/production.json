@@ -1,0 +1,9 @@
+{
+  "deployed_at": "2026-10-04T12:56:01.469505+00:00",
+  "model_name": "RandomForestRegressor",
+  "model_version": "313",
+  "registered_model_name": "HousePriceModel",
+  "run_id": "4ee9b805c93046039b124e82ae851b76",
+  "schema_version": 1,
+  "use_case": "house_price"
+}

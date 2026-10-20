@@ -1,0 +1,14 @@
+pytest
+python-dotenv
+pyyaml
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+mlflow
+fastapi
+pydantic
+uvicorn
+requests
+httpx

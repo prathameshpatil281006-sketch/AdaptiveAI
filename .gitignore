@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite runtime databases (tests use temporary databases)
+*.db
+*.sqlite
+*.sqlite3
+
+# MLflow local tracking artifacts
+mlruns/
+
+# Trained model binaries generated during local runs/tests
+models/*/*.joblib
+models/*/*.pkl
+!models/*/__init__.py
+
+# Environment secrets
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Local application database
+data/*.db
+
+# Staged model candidates
+models/house_price/.staging/
+
+# Include active production model for team setup
+!models/house_price/RandomForestRegressor.joblib

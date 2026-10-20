@@ -1,0 +1,15 @@
+application:
+  name: AdaptiveAI
+  environment: development
+
+random_seed: 42
+
+logging:
+  level: INFO
+
+database:
+  path: data/adaptive_ai.db
+
+scheduler:
+  enabled: false
+  interval_minutes: 60
